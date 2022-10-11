@@ -82,7 +82,7 @@ header section {
 
 /*=============== MAIN =================*/
 
-.mainText{
+.mainText {
     padding-top: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 1rem;
@@ -90,7 +90,7 @@ header section {
     line-height: 1.5rem;
 }
 
-.mainText-C{
+.mainText-C {
     padding-top: 1.5rem;
     padding-left: 0.5rem;
     padding-right: 1rem;
@@ -99,56 +99,99 @@ header section {
     text-align: center;
 }
 
-.miniHeadline{
+.miniHeadline {
     font-family: robotoMedium;
     padding-left: 3.5rem;
 
 }
 
-.miniHeadline2{
+.miniHeadline2 {
     font-family: robotoMedium;
     padding-left: 0.5rem;
 
 }
 
-.pT{
+.pT {
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
-.logoSize{
+.logoSize {
     width: 8%;
     margin-bottom: -2rem;
 }
 
-.picTextBlock{
+.picTextBlock {
     display: flex;
     flex-direction: row;
 }
 
-.numHeadline{
+.numHeadline {
     font-size: 3rem;
     color: rgb(179, 179, 179);
 }
 
-.pic{
+.pic {
     width: 100%;
 }
 
-.picL{
-justify-content: flex-start;
+.picL {
+    justify-content: flex-start;
 }
 
 
-.picR{
-justify-content: flex-end;
+.picR {
+    justify-content: flex-end;
 }
 
-.textL{
-justify-content: flex-start;
+.textL {
+    justify-content: flex-start;
 }
 
-.textR{
-justify-content: flex-end;
+.textR {
+    justify-content: flex-end;
 }
+
 /*=============== FOOTER =================*/
+
+.fHeadline {
+    font-family: robotoBold;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.fText {
+    text-align: center;
+    font-size: ;
+    font-family: robotoLight;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mail {
+    text-align: center;
+    width: 60%;
+    border: 1px solid 0 0 10px
+}
+
+.sub {
+    width: 30%;
+    background-color: #ff3571;
+    color: #ffffff;
+}
+
+.createdBy{
+text-align: center;
+padding-top: 3rem;
+}
+
+/* ! STYLES */
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
