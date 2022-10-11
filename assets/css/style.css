@@ -195,3 +195,257 @@ footer form {
     flex-direction: column;
     align-items: center;
 }
+
+
+@media only screen and (min-width: 1200px){
+
+
+/*=============== HEADER =================*/
+/* !CLASSES */
+
+.logo1 {
+    display: flex;
+    width: 10rem;
+}
+
+.logo1a {
+    width: 4.5rem;
+    padding-left: 2rem;
+    margin-right: 1rem;
+}
+
+.logoHeadline{
+    font-size: 1.5rem;
+    font-family: robotoBold;
+}
+
+
+.floatG {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.floatB {
+    width: 65%;
+    margin-top: -2.3rem;
+}
+
+
+.headlineDesk{
+    padding-left: 2rem;
+    margin-top: -33rem;
+}
+
+.headline1 {
+    font-family: robotoBold;
+    font-size: 4.5rem;
+    padding-left: 5rem;
+
+}
+
+.headline1a{
+    margin-bottom: 2rem
+}
+
+.headlineT {
+    padding-left: 5rem;
+    font-size: 1.8rem;
+    font-family: robotoLight;
+}
+
+.redText {
+    color: red;
+    font-size: 1.2rem;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.examplePic1 {
+    width: 100%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+/* !STYLES */
+
+header section {
+    width: 25%;
+}
+
+/*=============== MAIN =================*/
+
+
+.headline1b{
+    margin-right: 40rem;
+    margin-left: 7rem;
+}
+
+.title-text-block{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.mainText {
+    text-align: left;
+    width: 35%;
+    font-family: robotoLight;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.mainText-C {
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    margin-left: 20rem;
+    font-family: robotoLight;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    width: 60%;
+}
+
+
+.idea4{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 20rem;
+}
+
+.idea4width{
+width: 50%;
+height: 4%;
+padding-top: 6rem;
+padding-bottom: 6rem;
+justify-content: space-around;
+}
+
+.idea4text{
+width: 60%;
+}
+
+.miniHeadline {
+    font-family: robotoBold;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 4rem;
+
+
+}
+
+.miniHeadline2 {
+    font-family: robotoMedium;
+    padding-left: 0.5rem;
+
+}
+
+.pT {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-top: 10rem;
+    margin-left: 7rem;
+}
+
+.logoSize {
+    width: 5%;
+    margin-bottom: -2.5rem;
+    margin-left: -3.5rem;
+}
+
+.picTextBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.numHeadline {
+    font-size: 3rem;
+    color: rgb(179, 179, 179);
+}
+
+.pic {
+    width: 100%;
+}
+
+.picL {
+    justify-content: flex-start;
+    width: 40%;
+    padding-left: 10rem;
+}
+
+
+.picR {
+    justify-content: flex-end;
+}
+
+
+
+.textL {
+    justify-content: flex-start;
+}
+
+.textR {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+width: 100%;
+}
+
+.picText{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.headline1-align-C{
+    text-align: center;
+    padding-right: 12rem;
+}
+/*=============== FOOTER =================*/
+
+.fHeadline {
+    font-family: robotoBold;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.fText {
+    text-align: center;
+    font-size: ;
+    font-family: robotoLight;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.mail {
+    text-align: center;
+    width: 60%;
+    border: 1px solid 0 0 10px
+}
+
+.sub {
+    width: 30%;
+    background-color: #ff3571;
+    color: #ffffff;
+}
+
+.createdBy{
+text-align: center;
+padding-top: 3rem;
+}
+
+/* ! STYLES */
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+}
