@@ -183,9 +183,9 @@ header section {
     color: #ffffff;
 }
 
-.createdBy{
-text-align: center;
-padding-top: 3rem;
+.createdBy {
+    text-align: center;
+    padding-top: 3rem;
 }
 
 /* ! STYLES */
@@ -197,254 +197,281 @@ footer form {
 }
 
 
-@media only screen and (min-width: 1200px){
+/* !================== DESKTOP ==========================! */
+
+@media only screen and (min-width: 1200px) {
 
 
-/*=============== HEADER =================*/
-/* !CLASSES */
+    /*=============== HEADER =================*/
+    /* !CLASSES */
 
-.logo1 {
-    display: flex;
-    width: 10rem;
-}
+    .logo1 {
+        display: flex;
+        width: 10rem;
+        margin-top: 1rem;
+    }
 
-.logo1a {
-    width: 4.5rem;
-    padding-left: 2rem;
-    margin-right: 1rem;
-}
+    .logo1a {
+        width: 4.5rem;
+        padding-left: 2rem;
+        margin-right: 1rem;
+    }
 
-.logoHeadline{
-    font-size: 1.5rem;
-    font-family: robotoBold;
-}
-
-
-.floatG {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.floatB {
-    width: 65%;
-    margin-top: -2.3rem;
-}
+    .logoHeadline {
+        font-size: 1.5rem;
+        font-family: robotoBold;
+    }
 
 
-.headlineDesk{
-    padding-left: 2rem;
-    margin-top: -33rem;
-}
+    .floatG {
+        display: flex;
+        justify-content: flex-end;
+    }
 
-.headline1 {
-    font-family: robotoBold;
-    font-size: 4.5rem;
-    padding-left: 5rem;
-
-}
-
-.headline1a{
-    margin-bottom: 2rem
-}
-
-.headlineT {
-    padding-left: 5rem;
-    font-size: 1.8rem;
-    font-family: robotoLight;
-}
-
-.redText {
-    color: red;
-    font-size: 1.2rem;
-    padding-top: 10rem;
-    padding-left: 5rem;
-}
-
-.examplePic1 {
-    width: 100%;
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-}
-
-/* !STYLES */
-
-header section {
-    width: 25%;
-}
-
-/*=============== MAIN =================*/
+    .floatB {
+        width: 65%;
+        margin-top: -4rem;
+    }
 
 
-.headline1b{
-    margin-right: 40rem;
-    margin-left: 7rem;
-}
+    .headlineDesk {
+        padding-left: 2rem;
+        margin-top: -33rem;
+    }
 
-.title-text-block{
-    display: flex;
-    flex-direction: row;
-}
+    .headline1 {
+        font-family: robotoBold;
+        font-size: 4.5rem;
+        padding-left: 5rem;
 
+    }
 
-.mainText {
-    text-align: left;
-    width: 35%;
-    font-family: robotoLight;
-    line-height: 2.5rem;
-    font-size: 1.5rem;
-}
+    .headline1a {
+        margin-bottom: 2rem
+    }
 
-.mainText-C {
-    padding-top: 5rem;
-    padding-left: 0.5rem;
-    padding-right: 1rem;
-    margin-left: 20rem;
-    font-family: robotoLight;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    text-align: center;
-    width: 60%;
-}
+    .headlineT {
+        padding-left: 5rem;
+        font-size: 1.8rem;
+        font-family: robotoLight;
+    }
 
+    .redText {
+        color: red;
+        font-size: 1.2rem;
+        padding-top: 10rem;
+        padding-left: 5rem;
+    }
 
-.idea4{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-left: 20rem;
-}
+    .examplePic1 {
+        width: 100%;
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+    }
 
-.idea4width{
-width: 50%;
-height: 4%;
-padding-top: 6rem;
-padding-bottom: 6rem;
-justify-content: space-around;
-}
+    /* !STYLES */
 
-.idea4text{
-width: 60%;
-}
+    header section {
+        width: 25%;
+    }
 
-.miniHeadline {
-    font-family: robotoBold;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 4rem;
+    /*=============== MAIN =================*/
 
 
-}
+    .headline1b {
+        margin-right: 40rem;
+        margin-left: 7rem;
+    }
 
-.miniHeadline2 {
-    font-family: robotoMedium;
-    padding-left: 0.5rem;
-
-}
-
-.pT {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    margin-top: 10rem;
-    margin-left: 7rem;
-}
-
-.logoSize {
-    width: 5%;
-    margin-bottom: -2.5rem;
-    margin-left: -3.5rem;
-}
-
-.picTextBlock {
-    display: flex;
-    flex-direction: row;
-}
-
-.numHeadline {
-    font-size: 3rem;
-    color: rgb(179, 179, 179);
-}
-
-.pic {
-    width: 100%;
-}
-
-.picL {
-    justify-content: flex-start;
-    width: 40%;
-    padding-left: 10rem;
-}
+    .title-text-block {
+        display: flex;
+        flex-direction: row;
+    }
 
 
-.picR {
-    justify-content: flex-end;
-}
+    .mainText {
+        text-align: left;
+        width: 35%;
+        font-family: robotoLight;
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .mainText-C {
+        padding-top: 5rem;
+        padding-left: 0.5rem;
+        padding-right: 1rem;
+        margin-left: 20rem;
+        font-family: robotoLight;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+        width: 60%;
+    }
+
+
+    .idea4 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-left: 20rem;
+    }
+
+    .idea4width {
+        width: 50%;
+        height: 4%;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        justify-content: space-around;
+    }
+
+    .idea4text {
+        width: 60%;
+    }
+
+    .miniHeadline {
+        font-family: robotoBold;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 4rem;
+
+
+    }
+
+    .miniHeadline2 {
+        font-family: robotoMedium;
+        padding-left: 0.5rem;
+        padding-top: 2.0rem;
+        font-size: 3rem;
+
+    }
+
+    .pT {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        margin-top: 10rem;
+        margin-left: 7rem;
+    }
+
+    .logoSize {
+        width: 5%;
+        margin-bottom: -2.5rem;
+        margin-left: -3.5rem;
+    }
+
+    .picTextBlock {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .numHeadline {
+        font-size: 6rem;
+        color: rgb(179, 179, 179);
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .picL {
+        justify-content: flex-start;
+        width: 40%;
+        padding-left: 10rem;
+    }
+
+    .pic-align-R {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        padding-top: 20rem;
+    }
+
+    .picR {
+
+        width: 40%;
+    }
 
 
 
-.textL {
-    justify-content: flex-start;
-}
+    .textL {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: -38rem;
+        margin-left: 20rem;
+    }
 
-.textR {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-width: 100%;
-}
+    .textR {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 25rem;
+        margin-right: -50rem;
+    }
 
-.picText{
-    display: flex;
-    flex-direction: row;
-}
+    .picText {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10rem;
+    }
 
 
-.headline1-align-C{
-    text-align: center;
-    padding-right: 12rem;
-}
-/*=============== FOOTER =================*/
+    .headline1-align-C {
+        text-align: center;
+        padding-right: 12rem;
+    }
 
-.fHeadline {
-    font-family: robotoBold;
-    font-size: 1.5rem;
-    padding-left: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-}
+    /*=============== FOOTER =================*/
 
-.fText {
-    text-align: center;
-    font-size: ;
-    font-family: robotoLight;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
+    .fHeadline {
+        font-family: robotoBold;
+        font-size: 5.5rem;
+        padding-left: 0.5rem;
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
 
-.mail {
-    text-align: center;
-    width: 60%;
-    border: 1px solid 0 0 10px
-}
+    .fText {
+        text-align: center;
+        font-size: 2rem;
+        font-family: robotoLight;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
 
-.sub {
-    width: 30%;
-    background-color: #ff3571;
-    color: #ffffff;
-}
+    .mail {
+        text-align: center;
+        width: 45%;
+        height: 8rem;
+        font-size: 2rem;
+    }
 
-.createdBy{
-text-align: center;
-padding-top: 3rem;
-}
+    .sub {
+        width: 15%;
+        height: 5rem;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        background-color: #ff3571;
+        color: #ffffff;
+    }
 
-/* ! STYLES */
+    .createdBy {
+        text-align: left;
+        font-family: robotoLight;
+        font-size: 1.5rem;
+        padding-top: 10rem;
+        padding-left: 12rem;
+        padding-bottom: 2rem;
+    }
 
-footer form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    /* ! STYLES */
+
+    footer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 
