@@ -174,13 +174,16 @@ header section {
 .mail {
     text-align: center;
     width: 60%;
-    border: 1px solid 0 0 10px
+    border-style: none;
+    box-shadow: rgba(128, 128, 128, 0.162) 0.5px 0.5px 5px;
 }
 
 .sub {
     width: 30%;
     background-color: #ff3571;
     color: #ffffff;
+    border-style: none;
+    margin-top: 1rem;
 }
 
 .createdBy {
@@ -387,8 +390,8 @@ footer form {
     }
 
     .picR {
-
-        width: 40%;
+        margin-right: 6rem;
+        width: 35%;
     }
 
 
@@ -443,8 +446,10 @@ footer form {
     .mail {
         text-align: center;
         width: 45%;
-        height: 8rem;
+        height: 6rem;
         font-size: 2rem;
+        border-style: none;
+        box-shadow: rgba(128, 128, 128, 0.162) 1px 1px 15px;
     }
 
     .sub {
@@ -454,6 +459,7 @@ footer form {
         font-size: 1.5rem;
         background-color: #ff3571;
         color: #ffffff;
+        border-style: none;
     }
 
     .createdBy {
