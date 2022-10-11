@@ -82,6 +82,73 @@ header section {
 
 /*=============== MAIN =================*/
 
+.mainText{
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    font-family: robotoLight;
+    line-height: 1.5rem;
+}
+
+.mainText-C{
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    font-family: robotoLight;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.miniHeadline{
+    font-family: robotoMedium;
+    padding-left: 3.5rem;
+
+}
+
+.miniHeadline2{
+    font-family: robotoMedium;
+    padding-left: 0.5rem;
+
+}
+
+.pT{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.logoSize{
+    width: 8%;
+    margin-bottom: -2rem;
+}
+
+.picTextBlock{
+    display: flex;
+    flex-direction: row;
+}
+
+.numHeadline{
+    font-size: 3rem;
+    color: rgb(179, 179, 179);
+}
+
+.pic{
+    width: 100%;
+}
+
+.picL{
+justify-content: flex-start;
+}
 
 
+.picR{
+justify-content: flex-end;
+}
+
+.textL{
+justify-content: flex-start;
+}
+
+.textR{
+justify-content: flex-end;
+}
 /*=============== FOOTER =================*/
