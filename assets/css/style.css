@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: robotoMedium;
+}
+
+/*=============== GENERELL =================*/
+
+@font-face {
+    font-family: robotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: robotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+
+/*=============== HEADER =================*/
+/* !CLASSES */
+
+.logo1 {
+    display: flex;
+    width: 4rem;
+}
+
+.logo1a {
+    width: 2rem;
+}
+
+
+.floatG {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.floatB {
+    width: 15rem;
+    margin-top: -2.3rem;
+}
+
+.headline1 {
+    font-family: robotoBold;
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.headlineT {
+    padding-left: 0.5rem;
+}
+
+.redText {
+    color: red;
+    font-size: 0.8rem;
+    padding-top: 2rem;
+}
+
+.examplePic1 {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* !STYLES */
+
+header section {
+    width: 25%;
+}
+
+/*=============== MAIN =================*/
+
+
+
+/*=============== FOOTER =================*/
