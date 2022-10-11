@@ -52,6 +52,13 @@
     margin-top: -2.3rem;
 }
 
+.floatGuy {
+    position: absolute;
+    width: 60%;
+    margin-left: 2rem;
+    margin-top: -4rem;
+}
+
 .headline1 {
     font-family: robotoBold;
     font-size: 1.5rem;
@@ -236,6 +243,22 @@ footer form {
         margin-top: -4rem;
     }
 
+    .floatGuy {
+        position: absolute;
+        width: 60%;
+        margin-left: -3rem;
+        padding-top: 4rem;
+    }
+
+    /* .animation {
+        height: 100px;
+        width: 10px;
+
+        @keyframes .animation{
+        0% {top: 0px}
+        100% { top:50px}
+    }
+} */
 
     .headlineDesk {
         padding-left: 2rem;
